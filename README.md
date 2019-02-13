@@ -1,7 +1,7 @@
 # mono_sw vim colorscheme   
 
 A very simple and efficient grayscale scheme with little touch of red.   
-Built for terminal vim.   
+Built for terminal vim and GUI.   
 
 #### mono_sw    
 ![Alt text](https://github.com/smallwat3r/vim-mono_sw/blob/master/screenshot.png)    
