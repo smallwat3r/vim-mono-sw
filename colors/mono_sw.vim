@@ -3,7 +3,7 @@
 " https://github.com/smallwat3r/vim-mono_sw
 "
 " mono_sw vim colorscheme.
-" A very simple and efficient monochrome scheme with little touch of red.
+" A very simple and efficient grayscale scheme with little touch of red.
 
 set background=dark
 
