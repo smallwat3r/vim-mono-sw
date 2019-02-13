@@ -24,8 +24,8 @@ hi Character           ctermfg=250  ctermbg=234  cterm=NONE       guifg=#bcbcbc 
 hi Comment             ctermfg=237  ctermbg=NONE cterm=italic     guifg=#3a3a3a  guibg=NONE     gui=italic
 hi String              ctermfg=240  ctermbg=NONE cterm=italic     guifg=#585858  guibg=NONE     gui=italic
 
-hi Number              ctermfg=9    ctermbg=NONE cterm=NONE       guifg=#ff0000  guibg=NONE     gui=NONE
-hi Float               ctermfg=9    ctermbg=NONE cterm=NONE       guifg=#ff0000  guibg=NONE     gui=NONE
+hi Number              ctermfg=197  ctermbg=NONE cterm=NONE       guifg=#ff005f  guibg=NONE     gui=NONE
+hi Float               ctermfg=197  ctermbg=NONE cterm=NONE       guifg=#ff005f  guibg=NONE     gui=NONE
 hi Boolean             ctermfg=250  ctermbg=NONE cterm=italic     guifg=#bcbcbc  guibg=NONE     gui=italic
 hi Identifier          ctermfg=250  ctermbg=NONE cterm=NONE       guifg=#bcbcbc  guibg=NONE     gui=NONE
 
@@ -41,9 +41,9 @@ hi Type                ctermfg=250  ctermbg=NONE cterm=NONE       guifg=#bcbcbc 
 hi linenr              ctermfg=240  ctermbg=234  cterm=NONE       guifg=#585858  guibg=#1c1c1c  gui=NONE
 hi Visual              ctermfg=233  ctermbg=243  cterm=NONE       guifg=#121212  guibg=#767676  gui=NONE
 
-hi Special             ctermfg=9    ctermbg=NONE cterm=NONE       guifg=#ff0000  guibg=NONE     gui=NONE
-hi SpecialChar         ctermfg=9    ctermbg=NONE cterm=NONE       guifg=#ff0000  guibg=NONE     gui=NONE
-hi SpecialKey          ctermfg=9    ctermbg=NONE cterm=NONE       guifg=#ff0000  guibg=NONE     gui=NONE
+hi Special             ctermfg=197  ctermbg=NONE cterm=NONE       guifg=#ff005f  guibg=NONE     gui=NONE
+hi SpecialChar         ctermfg=197  ctermbg=NONE cterm=NONE       guifg=#ff005f  guibg=NONE     gui=NONE
+hi SpecialKey          ctermfg=197  ctermbg=NONE cterm=NONE       guifg=#ff005f  guibg=NONE     gui=NONE
 
 hi MatchParen          ctermfg=250  ctermbg=245  cterm=NONE       guifg=#bcbcbc  guibg=#8a8a8a  gui=NONE
 hi ColorColumn         ctermfg=NONE ctermbg=236  cterm=NONE       guifg=NONE     guibg=#303030  gui=NONE
@@ -58,15 +58,15 @@ hi SignColumn          ctermfg=233  ctermbg=234  cterm=NONE       guifg=#121212 
 hi IncSearch           ctermfg=250  ctermbg=NONE cterm=NONE       guifg=#bcbcbc  guibg=NONE     gui=NONE
 hi Search              ctermfg=226  ctermbg=NONE cterm=NONE       guifg=#ffff00  guibg=NONE     gui=NONE
 
-hi Todo                ctermfg=190  ctermbg=NONE cterm=italic     guifg=#d7ff00  guibg=NONE     gui=italic
+hi TODO                ctermfg=190  ctermbg=NONE cterm=italic     guifg=#d7ff00  guibg=NONE     gui=italic
 hi Error               ctermfg=1    ctermbg=NONE cterm=NONE       guifg=#800000  guibg=NONE     gui=NONE
 hi ErrorMsg            ctermfg=1    ctermbg=NONE cterm=underline  guifg=#800000  guibg=NONE     gui=underline
 
 hi PreProc             ctermfg=245  ctermbg=NONE cterm=NONE       guifg=#8a8a8a  guibg=NONE     gui=NONE
-hi Title               ctermfg=9    ctermbg=NONE cterm=bold       guifg=#ff0000  guibg=NONE     gui=bold
-hi WildMenu            ctermfg=9    ctermbg=NONE cterm=NONE       guifg=#ff0000  guibg=NONE     gui=NONE
-hi Underlined          ctermfg=9    ctermbg=NONE cterm=underline  guifg=#ff0000  guibg=NONE     gui=underline
-hi Directory           ctermfg=9    ctermbg=NONE cterm=bold       guifg=#ff0000  guibg=NONE     gui=bold
+hi Title               ctermfg=197  ctermbg=NONE cterm=bold       guifg=#ff005f  guibg=NONE     gui=bold
+hi WildMenu            ctermfg=197  ctermbg=NONE cterm=NONE       guifg=#ff005f  guibg=NONE     gui=NONE
+hi Underlined          ctermfg=197  ctermbg=NONE cterm=underline  guifg=#ff005f  guibg=NONE     gui=underline
+hi Directory           ctermfg=197  ctermbg=NONE cterm=bold       guifg=#ff005f  guibg=NONE     gui=bold
 
 hi htmlTagName         ctermfg=255  ctermbg=NONE cterm=NONE       guifg=#eeeeee  guibg=NONE     gui=NONE
-hi pythonEscape        ctermfg=9    ctermbg=NONE cterm=bold       guifg=#ff0000  guibg=NONE     gui=bold
+hi pythonEscape        ctermfg=197  ctermbg=NONE cterm=bold       guifg=#ff005f  guibg=NONE     gui=bold
