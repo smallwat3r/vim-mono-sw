@@ -21,12 +21,12 @@ hi Normal              ctermfg=245  ctermbg=234  cterm=NONE       guifg=#8a8a8a 
 hi Constant            ctermfg=250  ctermbg=NONE cterm=NONE       guifg=#bcbcbc  guibg=NONE     gui=NONE
 
 hi Character           ctermfg=250  ctermbg=234  cterm=NONE       guifg=#bcbcbc  guibg=#1c1c1c  gui=NONE
-hi Comment             ctermfg=237  ctermbg=NONE cterm=italic     guifg=#3a3a3a  guibg=NONE     gui=NONE
-hi String              ctermfg=240  ctermbg=NONE cterm=italic     guifg=#585858  guibg=NONE     gui=NONE
+hi Comment             ctermfg=237  ctermbg=NONE cterm=italic     guifg=#3a3a3a  guibg=NONE     gui=italic
+hi String              ctermfg=240  ctermbg=NONE cterm=italic     guifg=#585858  guibg=NONE     gui=italic
 
 hi Number              ctermfg=9    ctermbg=NONE cterm=NONE       guifg=#ff0000  guibg=NONE     gui=NONE
 hi Float               ctermfg=9    ctermbg=NONE cterm=NONE       guifg=#ff0000  guibg=NONE     gui=NONE
-hi Boolean             ctermfg=250  ctermbg=NONE cterm=italic     guifg=#bcbcbc  guibg=NONE     gui=NONE
+hi Boolean             ctermfg=250  ctermbg=NONE cterm=italic     guifg=#bcbcbc  guibg=NONE     gui=italic
 hi Identifier          ctermfg=250  ctermbg=NONE cterm=NONE       guifg=#bcbcbc  guibg=NONE     gui=NONE
 
 hi Include             ctermfg=253  ctermbg=NONE cterm=NONE       guifg=#dadada  guibg=NONE     gui=NONE
@@ -58,15 +58,15 @@ hi SignColumn          ctermfg=233  ctermbg=234  cterm=NONE       guifg=#121212 
 hi IncSearch           ctermfg=250  ctermbg=NONE cterm=NONE       guifg=#bcbcbc  guibg=NONE     gui=NONE
 hi Search              ctermfg=226  ctermbg=NONE cterm=NONE       guifg=#ffff00  guibg=NONE     gui=NONE
 
-hi Todo                ctermfg=190  ctermbg=NONE cterm=italic     guifg=#d7ff00  guibg=NONE     gui=NONE
+hi Todo                ctermfg=190  ctermbg=NONE cterm=italic     guifg=#d7ff00  guibg=NONE     gui=italic
 hi Error               ctermfg=1    ctermbg=NONE cterm=NONE       guifg=#800000  guibg=NONE     gui=NONE
-hi ErrorMsg            ctermfg=1    ctermbg=NONE cterm=underline  guifg=#800000  guibg=NONE     gui=NONE
+hi ErrorMsg            ctermfg=1    ctermbg=NONE cterm=underline  guifg=#800000  guibg=NONE     gui=underline
 
 hi PreProc             ctermfg=245  ctermbg=NONE cterm=NONE       guifg=#8a8a8a  guibg=NONE     gui=NONE
-hi Title               ctermfg=9    ctermbg=NONE cterm=bold       guifg=#ff0000  guibg=NONE     gui=NONE
+hi Title               ctermfg=9    ctermbg=NONE cterm=bold       guifg=#ff0000  guibg=NONE     gui=bold
 hi WildMenu            ctermfg=9    ctermbg=NONE cterm=NONE       guifg=#ff0000  guibg=NONE     gui=NONE
-hi Underlined          ctermfg=9    ctermbg=NONE cterm=underline  guifg=#ff0000  guibg=NONE     gui=NONE
-hi Directory           ctermfg=9    ctermbg=NONE cterm=bold       guifg=#ff0000  guibg=NONE     gui=NONE
+hi Underlined          ctermfg=9    ctermbg=NONE cterm=underline  guifg=#ff0000  guibg=NONE     gui=underline
+hi Directory           ctermfg=9    ctermbg=NONE cterm=bold       guifg=#ff0000  guibg=NONE     gui=bold
 
 hi htmlTagName         ctermfg=255  ctermbg=NONE cterm=NONE       guifg=#eeeeee  guibg=NONE     gui=NONE
-hi pythonEscape        ctermfg=9    ctermbg=NONE cterm=bold       guifg=#ff0000  guibg=NONE     gui=NONE
+hi pythonEscape        ctermfg=9    ctermbg=NONE cterm=bold       guifg=#ff0000  guibg=NONE     gui=bold
