@@ -5,66 +5,68 @@
 " mono_sw vim colorscheme.
 " A very simple and efficient grayscale scheme with little touch of red.
 
-set background=dark
+hi clear
 
 if exists("syntax on")
   syntax reset
 endif
 
 let g:colors_name = "mono_sw"
+set background=dark
 
 "
 " Colors
 "
-hi Normal              ctermfg=245  ctermbg=234  cterm=none
-hi Constant            ctermfg=250  ctermbg=none cterm=none
-hi Character           ctermfg=250  ctermbg=234  cterm=none
-hi Comment             ctermfg=237  ctermbg=none cterm=italic
-hi String              ctermfg=240  ctermbg=none cterm=italic
+hi Normal              ctermfg=245  ctermbg=234  cterm=NONE       guifg=#8a8a8a  guibg=#1c1c1c  gui=NONE
+hi Constant            ctermfg=250  ctermbg=NONE cterm=NONE       guifg=#bcbcbc  guibg=NONE     gui=NONE
 
-hi Number              ctermfg=9    ctermbg=none cterm=none
-hi Float               ctermfg=9    ctermbg=none cterm=none
-hi Boolean             ctermfg=250  ctermbg=none cterm=italic
-hi Identifier          ctermfg=250  ctermbg=none cterm=none
+hi Character           ctermfg=250  ctermbg=234  cterm=NONE       guifg=#bcbcbc  guibg=#1c1c1c  gui=NONE
+hi Comment             ctermfg=237  ctermbg=NONE cterm=italic     guifg=#3a3a3a  guibg=NONE     gui=NONE
+hi String              ctermfg=240  ctermbg=NONE cterm=italic     guifg=#585858  guibg=NONE     gui=NONE
 
-hi Include             ctermfg=253  ctermbg=none cterm=none
-hi Function            ctermfg=253  ctermbg=none cterm=none
-hi Statement           ctermfg=253  ctermbg=none cterm=none
-hi Conditional         ctermfg=253  ctermbg=none cterm=none
-hi Operator            ctermfg=253  ctermbg=none cterm=none
-hi Repeat              ctermfg=253  ctermbg=none cterm=none
+hi Number              ctermfg=9    ctermbg=NONE cterm=NONE       guifg=#ff0000  guibg=NONE     gui=NONE
+hi Float               ctermfg=9    ctermbg=NONE cterm=NONE       guifg=#ff0000  guibg=NONE     gui=NONE
+hi Boolean             ctermfg=250  ctermbg=NONE cterm=italic     guifg=#bcbcbc  guibg=NONE     gui=NONE
+hi Identifier          ctermfg=250  ctermbg=NONE cterm=NONE       guifg=#bcbcbc  guibg=NONE     gui=NONE
 
-hi NonText             ctermfg=234  ctermbg=none cterm=none
-hi Type                ctermfg=250  ctermbg=none cterm=none
-hi linenr              ctermfg=240  ctermbg=234  cterm=none
-hi Visual              ctermfg=233  ctermbg=243  cterm=none
+hi Include             ctermfg=253  ctermbg=NONE cterm=NONE       guifg=#dadada  guibg=NONE     gui=NONE
+hi Function            ctermfg=253  ctermbg=NONE cterm=NONE       guifg=#dadada  guibg=NONE     gui=NONE
+hi Statement           ctermfg=253  ctermbg=NONE cterm=NONE       guifg=#dadada  guibg=NONE     gui=NONE
+hi Conditional         ctermfg=253  ctermbg=NONE cterm=NONE       guifg=#dadada  guibg=NONE     gui=NONE
+hi Operator            ctermfg=253  ctermbg=NONE cterm=NONE       guifg=#dadada  guibg=NONE     gui=NONE
+hi Repeat              ctermfg=253  ctermbg=NONE cterm=NONE       guifg=#dadada  guibg=NONE     gui=NONE
 
-hi Special             ctermfg=9    ctermbg=none cterm=none
-hi SpecialChar         ctermfg=9    ctermbg=none cterm=none
-hi SpecialKey          ctermfg=9    ctermbg=none cterm=none
+hi NonText             ctermfg=234  ctermbg=NONE cterm=NONE       guifg=#1c1c1c  guibg=NONE     gui=NONE
+hi Type                ctermfg=250  ctermbg=NONE cterm=NONE       guifg=#bcbcbc  guibg=NONE     gui=NONE
+hi linenr              ctermfg=240  ctermbg=234  cterm=NONE       guifg=#585858  guibg=#1c1c1c  gui=NONE
+hi Visual              ctermfg=233  ctermbg=243  cterm=NONE       guifg=#121212  guibg=#767676  gui=NONE
 
-hi MatchParen          ctermfg=250  ctermbg=245  cterm=none
-hi ColorColumn         ctermfg=none ctermbg=236  cterm=none
+hi Special             ctermfg=9    ctermbg=NONE cterm=NONE       guifg=#ff0000  guibg=NONE     gui=NONE
+hi SpecialChar         ctermfg=9    ctermbg=NONE cterm=NONE       guifg=#ff0000  guibg=NONE     gui=NONE
+hi SpecialKey          ctermfg=9    ctermbg=NONE cterm=NONE       guifg=#ff0000  guibg=NONE     gui=NONE
 
-hi Cursor              ctermfg=240  ctermbg=none cterm=none
-hi CursorLine          ctermfg=240  ctermbg=234  cterm=none
-hi CursorLineNR        ctermfg=250  ctermbg=none cterm=none
+hi MatchParen          ctermfg=250  ctermbg=245  cterm=NONE       guifg=#bcbcbc  guibg=#8a8a8a  gui=NONE
+hi ColorColumn         ctermfg=NONE ctermbg=236  cterm=NONE       guifg=NONE     guibg=#303030  gui=NONE
 
-hi VertSplit           ctermfg=233  ctermbg=234  cterm=none
-hi SignColumn          ctermfg=233  ctermbg=234  cterm=none
+hi Cursor              ctermfg=240  ctermbg=NONE cterm=NONE       guifg=#585858  guibg=NONE     gui=NONE
+hi CursorLine          ctermfg=240  ctermbg=234  cterm=NONE       guifg=#585858  guibg=#1c1c1c  gui=NONE
+hi CursorLineNR        ctermfg=250  ctermbg=NONE cterm=NONE       guifg=#bcbcbc  guibg=NONE     gui=NONE
 
-hi IncSearch           ctermfg=250  ctermbg=none cterm=none
-hi Search              ctermfg=226  ctermbg=none cterm=none
+hi VertSplit           ctermfg=233  ctermbg=234  cterm=NONE       guifg=#121212  guibg=#1c1c1c  gui=NONE
+hi SignColumn          ctermfg=233  ctermbg=234  cterm=NONE       guifg=#121212  guibg=#1c1c1c  gui=NONE
 
-hi Todo                ctermfg=190  ctermbg=none cterm=italic
-hi Error               ctermfg=1    ctermbg=none cterm=none
-hi ErrorMsg            ctermfg=1    ctermbg=none cterm=underline
+hi IncSearch           ctermfg=250  ctermbg=NONE cterm=NONE       guifg=#bcbcbc  guibg=NONE     gui=NONE
+hi Search              ctermfg=226  ctermbg=NONE cterm=NONE       guifg=#ffff00  guibg=NONE     gui=NONE
 
-hi PreProc             ctermfg=245  ctermbg=none cterm=none
-hi Title               ctermfg=9    ctermbg=none cterm=bold
-hi WildMenu            ctermfg=9    ctermbg=none cterm=none
-hi Underlined          ctermfg=9    ctermbg=none cterm=underline
-hi Directory           ctermfg=9    ctermbg=none cterm=bold
+hi Todo                ctermfg=190  ctermbg=NONE cterm=italic     guifg=#d7ff00  guibg=NONE     gui=NONE
+hi Error               ctermfg=1    ctermbg=NONE cterm=NONE       guifg=#800000  guibg=NONE     gui=NONE
+hi ErrorMsg            ctermfg=1    ctermbg=NONE cterm=underline  guifg=#800000  guibg=NONE     gui=NONE
 
-hi htmlTagName         ctermfg=255  ctermbg=none cterm=none
-hi pythonEscape        ctermfg=9    ctermbg=none cterm=bold
+hi PreProc             ctermfg=245  ctermbg=NONE cterm=NONE       guifg=#8a8a8a  guibg=NONE     gui=NONE
+hi Title               ctermfg=9    ctermbg=NONE cterm=bold       guifg=#ff0000  guibg=NONE     gui=NONE
+hi WildMenu            ctermfg=9    ctermbg=NONE cterm=NONE       guifg=#ff0000  guibg=NONE     gui=NONE
+hi Underlined          ctermfg=9    ctermbg=NONE cterm=underline  guifg=#ff0000  guibg=NONE     gui=NONE
+hi Directory           ctermfg=9    ctermbg=NONE cterm=bold       guifg=#ff0000  guibg=NONE     gui=NONE
+
+hi htmlTagName         ctermfg=255  ctermbg=NONE cterm=NONE       guifg=#eeeeee  guibg=NONE     gui=NONE
+hi pythonEscape        ctermfg=9    ctermbg=NONE cterm=bold       guifg=#ff0000  guibg=NONE     gui=NONE
