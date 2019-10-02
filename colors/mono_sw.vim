@@ -51,9 +51,10 @@ hi SpecialKey          ctermfg=197  ctermbg=NONE cterm=NONE       guifg=#ff005f 
 hi MatchParen          ctermfg=250  ctermbg=245  cterm=NONE       guifg=#bcbcbc  guibg=#8a8a8a  gui=NONE
 hi ColorColumn         ctermfg=NONE ctermbg=236  cterm=NONE       guifg=NONE     guibg=#303030  gui=NONE
 
-hi Cursor              ctermfg=240  ctermbg=255  cterm=NONE       guifg=#585858  guibg=#eeeeee  gui=NONE
-hi CursorLine          ctermfg=240  ctermbg=234  cterm=NONE       guifg=#585858  guibg=#1c1c1c  gui=NONE
-hi CursorLineNR        ctermfg=250  ctermbg=NONE cterm=NONE       guifg=#bcbcbc  guibg=NONE     gui=NONE
+hi Cursor              ctermfg=250  ctermbg=233  cterm=NONE       guifg=#b9b9b9 guibg=#101010   gui=NONE
+hi CursorColumn        ctermfg=250  ctermbg=233  cterm=NONE       guifg=#b9b9b9 guibg=#101010   gui=NONE
+hi CursorLine          ctermfg=250  ctermbg=233  cterm=NONE       guifg=#b9b9b9 guibg=#101010   gui=NONE
+hi CursorLineNR        ctermfg=250  ctermbg=233  cterm=NONE       guifg=#b9b9b9 guibg=#101010   gui=NONE
 
 hi DiffAdd             ctermfg=64   ctermbg=254  cterm=NONE       guifg=#6e8b3d  guibg=#e9e9de  gui=NONE
 hi DiffChange          ctermfg=NONE ctermbg=254  cterm=NONE       guifg=NONE     guibg=#e9e9de  gui=NONE
