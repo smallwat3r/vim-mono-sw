@@ -1,5 +1,7 @@
 # mono_sw vim colorscheme   
 
+**Created an updated color scheme [vim-efficient](https://github.com/smallwat3r/vim-efficient) based on this scheme.**
+
 A very simple and efficient grayscale scheme with little touch of red.   
 Built for terminal vim and GUI.   
 
